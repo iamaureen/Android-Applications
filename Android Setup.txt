@@ -1,0 +1,54 @@
+Android Studio Setup
+--------------------
+1. install android studio
+https://developer.android.com/studio/index.html
+find android-studio-bundle-135.17407740-windows.exe and download it and install it
+
+2. install genymotion
+https://www.genymotion.com/
+
+3. connect android studio and genymotion
+follow this tutorial
+https://www.youtube.com/watch?v=MWZ2rVFOQWw
+
+open android studio
+go to file -> settings
+go to plugin - and install genymotion
+then click apply and restart android studio
+
+a small red icon will appear in the bar
+click it, and you ll have to set up the path to genymotion
+c->program files->genymobile->genymotion
+done
+
+also go to settings, and add sdk path
+C:\Users\Your.name\AppData\Local\Android\sdk
+
+Database setup
+--------------
+1) download and install sqlite browser from here
+http://sqlitebrowser.org/
+2)open 'android device monitor'
+issue: if it doesnot open, run 'android studio' as an administer
+3)open DDMS, in the file explorer data->data->should contain the name of the app and hence the db
+4)export it and open with sqlitebrowser
+
+this link explains step by step:
+http://stackoverflow.com/questions/17529766/view-contents-of-database-file-in-android-studio
+
+View Database content inside Android Studio
+-------------------------------------------
+1)download sqlite jar file from here
+http://www.java2s.com/Code/Jar/c/Downloadcomquestoidsqlitebrowser120jar.htm
+
+2)paste the jar file in
+C:\Users\[USERNAME]\AppData\Local\Android\sdk\tools\lib\monitor-x86_64\plugins
+
+3)Open android studio, run your app with the database, open emulator
+
+4)a)Open android device monitor, click on the emulator option
+b)Open Window->Show View->Other->(select) Questoid SQLite Browser, small window will pop up
+c)Open File Explorer->Data->data->[your application with DB]->Select the db
+d)at the right corner there will be a database sign, click it, and the db will be loaded in the window
+
+related tutorial: https://www.youtube.com/watch?v=LUop6B1hgHA
