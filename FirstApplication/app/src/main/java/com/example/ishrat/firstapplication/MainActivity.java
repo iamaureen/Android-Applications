@@ -13,16 +13,20 @@ import android.view.View;
 import android.widget.*;
 
 public class MainActivity extends AppCompatActivity {
+    final String[] mobileArray = {"Android","IPhone","WindowsMobile","Blackberry","WebOS","Ubuntu","Windows7","Max OS X"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        final EditText name_editText;
+
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        final EditText name_editText;
         //get the input from the edit text
         name_editText = (EditText) findViewById(R.id.name_editText);
 
@@ -129,6 +133,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        Button listview_btn = (Button) findViewById(R.id.listview_btn);
+        listview_btn.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, ListviewDemo.class);
+                startActivity(intent);
+
+
+
+            }
+        });
 
 
     }

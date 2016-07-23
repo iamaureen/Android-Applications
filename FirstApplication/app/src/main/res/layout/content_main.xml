@@ -76,4 +76,14 @@
         android:layout_below="@+id/connection_btn"
         android:layout_alignRight="@+id/name_editText"
         android:layout_alignEnd="@+id/name_editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Listview"
+        android:id="@+id/listview_btn"
+        android:layout_below="@+id/db_demo"
+        android:layout_alignRight="@+id/db_demo"
+        android:layout_alignEnd="@+id/db_demo" />
+
 </RelativeLayout>

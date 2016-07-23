@@ -26,13 +26,9 @@ http://www.grokkingandroid.com/android-tutorial-broadcastreceiver/
 
 6)database crud operations
 http://instinctcoder.com/android-studio-sqlite-database-example/
-to view database:
-1) download and install sqlite browser from here
-http://sqlitebrowser.org/
-2)open 'android device monitor'
-issue: if it doesnot open, run 'android studio' as an administer
-3)open DDMS, in the file explorer data->data->should contain the name of the app and hence the db
-4)export it and open with sqlitebrowser
+
+7)listview demo:
+https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView
 
 
 

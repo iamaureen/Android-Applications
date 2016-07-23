@@ -3,3 +3,5 @@
 2) http://programmerguru.com/android-tutorial/how-to-hide-and-show-action-bar/
 
 3) ListView: http://androidexample.com/LISTVIEW/index.php?view=examplecloud&scat=2
+
+4) https://github.com/codepath/android_guides/wiki *** 

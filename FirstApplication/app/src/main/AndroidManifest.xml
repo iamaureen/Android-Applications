@@ -30,6 +30,9 @@
         <activity android:name=".DatabaseDemo"
             android:label="Database Demo">
         </activity>
+        <activity android:name=".ListviewDemo"
+            android:label="ListView Demo">
+        </activity>
 
         <receiver
             android:name="com.example.ishrat.firstapplication.NetworkChangeReceiver"
