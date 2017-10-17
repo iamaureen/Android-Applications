@@ -1,4 +1,4 @@
-Android Studio Setup
+Android Studio Setup <updated 2016>
 --------------------
 1. install android studio
 https://developer.android.com/studio/index.html
